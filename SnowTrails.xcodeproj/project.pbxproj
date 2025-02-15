@@ -47,6 +47,7 @@
 		6BEE25722D6108FA00601271 /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
 		6BEE25752D610FA700601271 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		6BEE25782D6114EA00601271 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		6BEE257A2D61206800601271 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		6BEE253B2D60CD1700601271 = {
 			isa = PBXGroup;
 			children = (
+				6BEE257A2D61206800601271 /* README.md */,
 				6BEE255B2D60CD8E00601271 /* SnowTrails */,
 				6BEE25452D60CD1700601271 /* Products */,
 			);
