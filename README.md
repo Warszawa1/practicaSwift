@@ -52,11 +52,6 @@ El proyecto está organizado en las siguientes carpetas:
 2. Gestión de validaciones antes de solicitar contraseña
 3. Organización de la arquitectura en capas
 
-### Mejoras Posibles
-1. Persistencia de datos
-2. Más opciones de filtrado de rutas
-3. Sistema de favoritos para usuarios
-4. Estadísticas de uso de rutas
 
 ## Instrucciones de Uso
 

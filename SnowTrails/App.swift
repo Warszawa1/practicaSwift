@@ -16,7 +16,7 @@ final class App {
     }
     
     func run() {
-        print("Startin SnowTrails application...")
+        print("Starting SnowTrails application...")
         mainMenu.showMainMenu()
     }
 }
