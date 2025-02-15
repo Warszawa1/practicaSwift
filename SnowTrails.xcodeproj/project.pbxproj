@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEE255C2D60CD8E00601271 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25562D60CD8E00601271 /* Point.swift */; };
+		6BEE255D2D60CD8E00601271 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25572D60CD8E00601271 /* Route.swift */; };
+		6BEE255E2D60CD8E00601271 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25582D60CD8E00601271 /* User.swift */; };
+		6BEE255F2D60CD8E00601271 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE255A2D60CD8E00601271 /* main.swift */; };
+		6BEE25642D60CE0E00601271 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25632D60CE0E00601271 /* MainMenu.swift */; };
+		6BEE25662D60E33900601271 /* UserMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25652D60E33900601271 /* UserMenu.swift */; };
+		6BEE25682D60E45800601271 /* AdminMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25672D60E45800601271 /* AdminMenu.swift */; };
+		6BEE256E2D60EE5E00601271 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE256D2D60EE5E00601271 /* App.swift */; };
+		6BEE25712D60F05600601271 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25702D60F05600601271 /* UserService.swift */; };
+		6BEE25732D6108FA00601271 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25722D6108FA00601271 /* RouteService.swift */; };
+		6BEE25762D610FA700601271 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25752D610FA700601271 /* Validator.swift */; };
+		6BEE25792D6114EA00601271 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE25782D6114EA00601271 /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BEE25422D60CD1700601271 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6BEE25442D60CD1700601271 /* SnowTrails */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnowTrails; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEE25562D60CD8E00601271 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		6BEE25572D60CD8E00601271 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		6BEE25582D60CD8E00601271 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6BEE255A2D60CD8E00601271 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6BEE25632D60CE0E00601271 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		6BEE25652D60E33900601271 /* UserMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMenu.swift; sourceTree = "<group>"; };
+		6BEE25672D60E45800601271 /* AdminMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMenu.swift; sourceTree = "<group>"; };
+		6BEE256D2D60EE5E00601271 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		6BEE25702D60F05600601271 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		6BEE25722D6108FA00601271 /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
+		6BEE25752D610FA700601271 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		6BEE25782D6114EA00601271 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEE25412D60CD1700601271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEE253B2D60CD1700601271 = {
+			isa = PBXGroup;
+			children = (
+				6BEE255B2D60CD8E00601271 /* SnowTrails */,
+				6BEE25452D60CD1700601271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEE25452D60CD1700601271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25442D60CD1700601271 /* SnowTrails */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEE25592D60CD8E00601271 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25562D60CD8E00601271 /* Point.swift */,
+				6BEE25572D60CD8E00601271 /* Route.swift */,
+				6BEE25582D60CD8E00601271 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BEE255B2D60CD8E00601271 /* SnowTrails */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25772D6114D100601271 /* Utils */,
+				6BEE25742D610F8E00601271 /* Validators */,
+				6BEE256F2D60F04100601271 /* Services */,
+				6BEE25602D60CDA900601271 /* Menus */,
+				6BEE25592D60CD8E00601271 /* Models */,
+				6BEE255A2D60CD8E00601271 /* main.swift */,
+				6BEE256D2D60EE5E00601271 /* App.swift */,
+			);
+			path = SnowTrails;
+			sourceTree = "<group>";
+		};
+		6BEE25602D60CDA900601271 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25632D60CE0E00601271 /* MainMenu.swift */,
+				6BEE25652D60E33900601271 /* UserMenu.swift */,
+				6BEE25672D60E45800601271 /* AdminMenu.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		6BEE256F2D60F04100601271 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25702D60F05600601271 /* UserService.swift */,
+				6BEE25722D6108FA00601271 /* RouteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6BEE25742D610F8E00601271 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25752D610FA700601271 /* Validator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		6BEE25772D6114D100601271 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE25782D6114EA00601271 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BEE25432D60CD1700601271 /* SnowTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEE254B2D60CD1700601271 /* Build configuration list for PBXNativeTarget "SnowTrails" */;
+			buildPhases = (
+				6BEE25402D60CD1700601271 /* Sources */,
+				6BEE25412D60CD1700601271 /* Frameworks */,
+				6BEE25422D60CD1700601271 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowTrails;
+			packageProductDependencies = (
+			);
+			productName = SnowTrails;
+			productReference = 6BEE25442D60CD1700601271 /* SnowTrails */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEE253C2D60CD1700601271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6BEE25432D60CD1700601271 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 6BEE253F2D60CD1700601271 /* Build configuration list for PBXProject "SnowTrails" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BEE253B2D60CD1700601271;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BEE25452D60CD1700601271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEE25432D60CD1700601271 /* SnowTrails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEE25402D60CD1700601271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE256E2D60EE5E00601271 /* App.swift in Sources */,
+				6BEE25642D60CE0E00601271 /* MainMenu.swift in Sources */,
+				6BEE255C2D60CD8E00601271 /* Point.swift in Sources */,
+				6BEE255D2D60CD8E00601271 /* Route.swift in Sources */,
+				6BEE25662D60E33900601271 /* UserMenu.swift in Sources */,
+				6BEE25762D610FA700601271 /* Validator.swift in Sources */,
+				6BEE25712D60F05600601271 /* UserService.swift in Sources */,
+				6BEE25792D6114EA00601271 /* Logger.swift in Sources */,
+				6BEE255E2D60CD8E00601271 /* User.swift in Sources */,
+				6BEE25732D6108FA00601271 /* RouteService.swift in Sources */,
+				6BEE255F2D60CD8E00601271 /* main.swift in Sources */,
+				6BEE25682D60E45800601271 /* AdminMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BEE25492D60CD1700601271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BEE254A2D60CD1700601271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6BEE254C2D60CD1700601271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAA9LFFTNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BEE254D2D60CD1700601271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAA9LFFTNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEE253F2D60CD1700601271 /* Build configuration list for PBXProject "SnowTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE25492D60CD1700601271 /* Debug */,
+				6BEE254A2D60CD1700601271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEE254B2D60CD1700601271 /* Build configuration list for PBXNativeTarget "SnowTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE254C2D60CD1700601271 /* Debug */,
+				6BEE254D2D60CD1700601271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BEE253C2D60CD1700601271 /* Project object */;
+}
