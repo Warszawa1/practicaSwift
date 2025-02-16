@@ -46,11 +46,25 @@ El proyecto está organizado en las siguientes carpetas:
 - `Menus`: Interfaces de usuario
 - `Utils`: Utilidades como el sistema de logging
 - `Validators`: Sistema de validación
+- `Data`: Almacenamiento de datos estáticos de rutas y puntos
 
-### Dificultades Encontradas
-1. Implementación del algoritmo de la ruta más corta
-2. Gestión de validaciones antes de solicitar contraseña
-3. Organización de la arquitectura en capas
+## Dificultades Encontradas
+
+### Principales Desafíos
+1. Comprensión e implementación del algoritmo Dijkstra
+   - Entender la lógica detrás del algoritmo
+   - Adaptarlo a las necesidades específicas del proyecto
+   - Manejar las estructuras de datos necesarias (Set, Dictionary)
+
+2. Manejo de Arquitectura
+   - Implementación del patrón Singleton
+   - Organización de servicios y modelos
+   - Separación de responsabilidades
+
+3. Validaciones y Manejo de Errores
+   - Implementación de closures para success/failure
+   - Validación de inputs antes de procesar
+   - Manejo de casos edge
 
 
 ## Instrucciones de Uso
@@ -71,3 +85,27 @@ El proyecto está organizado en las siguientes carpetas:
 - Eliminar usuario
 - Añadir punto a ruta
 - Cerrar sesión
+
+
+---
+
+# 🔄 The Good Stuff I'm Taking Away 🔄
+
+> ### 🏗️ *Patrones y Estructuras*
+> - Organización de código en servicios
+> - Sistema de validación centralizado
+> - Manejo de usuarios y autenticación
+> - Sistema de logging para desarrollo
+
+> ### 📐 *Arquitectura*
+> - Separación de datos y lógica
+> - Patrones de diseño (Singleton)
+> - Manejo de menús y navegación
+> - Estructura modular y escalable
+
+> ### ✅ *Validaciones*
+> - Sistema robusto de verificación de inputs
+> - Manejo de errores con feedback claro
+> - Validaciones previas a operaciones
+
+---
