@@ -3,6 +3,8 @@
 
 SnowTrails es una aplicación de consola que permite a los usuarios acceder a información sobre rutas de montaña de manera fácil y rápida. Los senderistas pueden visualizar rutas y encontrar la manera de combinarlas para llegar de un punto a otro.
 
+![SnowTrails Logo](images/snowtrails-login.png)
+
 ## Especificaciones
 
 - **Usuarios por defecto**:

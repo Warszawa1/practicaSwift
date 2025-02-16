@@ -54,6 +54,14 @@
 		6BEE25842D6213C600601271 /* GeographyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographyUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6BEE25872D623ECF00601271 /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		6BEE25412D60CD1700601271 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -68,6 +76,7 @@
 		6BEE253B2D60CD1700601271 = {
 			isa = PBXGroup;
 			children = (
+				6BEE25872D623ECF00601271 /* images */,
 				6BEE257A2D61206800601271 /* README.md */,
 				6BEE255B2D60CD8E00601271 /* SnowTrails */,
 				6BEE25452D60CD1700601271 /* Products */,

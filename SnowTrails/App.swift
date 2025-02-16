@@ -19,7 +19,7 @@ final class App {
     
     /// Starts the application and shows the main menu to the user
     func run() {
-        print("Starting SnowTrails application...")
+        print("\nStarting SnowTrails...")
         mainMenu.showMainMenu()
     }
 }
