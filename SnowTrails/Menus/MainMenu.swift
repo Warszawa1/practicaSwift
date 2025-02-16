@@ -43,7 +43,7 @@ class MainMenu {
                 case 2:
                     handleAdminLogin()
                 case 3:
-                    print("¡Hasta luego!")
+                    print("¡Hasta luego!\n")
                     exit(0)
                 default:
                     print("Opción no válida")
