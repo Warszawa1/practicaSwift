@@ -7,10 +7,15 @@
 
 import Foundation
 
+
+/// Defines the types of users in the system
 enum UserType {
     case admin
     case regular
     
+    /// Converts the user type to a displayable string
+    /// - Throws: UserError if the role cannot be determined
+    /// - Returns: String representation of the user type
     func toString() throws -> String {
         switch self {
         case .admin:
@@ -20,6 +25,7 @@ enum UserType {
         }
     }
 }
+
 
 enum UserError: Error {
     case invalidRole
@@ -45,10 +51,15 @@ enum UserError: Error {
 }
 
 
+/// Represents a user in the system with their credentials and type
 struct User {
+    /// User's full name (8-24 alphanumeric characters)
     let name: String
+    /// User's email (format: xxx@xxx.es/.com)
     let email: String
+    /// User's type (admin or regular)
     let password: String
+    /// User's type (admin or regular)
     let type: UserType
     
     init(name: String, email: String, password: String, type: UserType) throws {

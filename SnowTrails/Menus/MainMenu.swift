@@ -8,11 +8,14 @@
 import Foundation
 
 
+/// Main menu controller handling initial user interaction
 class MainMenu {
     private let userService = UserService.shared
     private let logger = Logger.shared
     
     
+    /// Shows the main menu and handles user selection
+    /// Entry point for user interaction with the application
     func showMainMenu() {
         logger.log("Iniciando menú principal", level: .developer)
         print("""
@@ -102,7 +105,8 @@ class MainMenu {
         print("Introduce tu contraseña:")
         print("> ", terminator: "")
         guard let password = readLine() else { return }
-            
+           
+        // Verify admin user credentials
         userService.login(
             email: email,
             password: password,

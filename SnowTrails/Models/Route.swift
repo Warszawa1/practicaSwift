@@ -7,10 +7,16 @@
 
 import Foundation
 
+
+/// Represents a mountain trail with connected points and distance calculation
 struct Route {
+    /// Name of the route
     let name: String
+    /// Ordered array of points that form the route
     let points: [Point]
     
+    /// Calculates the total distance of the route using geographical coordinates
+    /// Returns 0.0 if the route has less than 2 points
     var distance: Double {
         guard points.count > 1 else { return 0.0 }
         
@@ -24,6 +30,7 @@ struct Route {
         return totalDistance
     }
 }
+
 
 // Helper function to calculate distance between two points
 func calculateDistance(from point1: Point, to point2: Point) -> Double {

@@ -8,6 +8,8 @@
 import Foundation
 
 
+/// Menu interface for administrators of the SnowTrails application.
+/// Provides functionality for user management  and route modifications (add new point).
 class AdminMenu {
     private let admin: User
     private let userService = UserService.shared
@@ -18,6 +20,7 @@ class AdminMenu {
         self.admin = admin
     }
     
+    /// Displays the main admin menu and handles admin input
     func showMenu() {
         while true {
             print("\nMenú admin - Selecciona una opción:")
@@ -48,6 +51,7 @@ class AdminMenu {
         }
     }
     
+    /// Displays all registered users in the system
     private func showAllUsers() {
         print("\nUsuarios registrados:")
         let users = userService.getAllUsers()
@@ -57,6 +61,7 @@ class AdminMenu {
         }
     }
     
+    /// Handles the process of adding a new user to the system
     private func addUser() {
         print("\nIntroduce el nombre del usuario que quieres añadir")
         print("> ", terminator: "")
@@ -83,6 +88,7 @@ class AdminMenu {
         )
     }
     
+    /// Handles the process of deleting a user from the system
     private func deleteUser() {
         print("\nIntroduce el nombre del usuario que quieres eliminar:")
         print("> ", terminator: "")
@@ -96,6 +102,7 @@ class AdminMenu {
         }
     }
     
+    /// Handles the process of adding a point to an existing route
     private func addPointToRoute() {
         print("\nRutas disponibles:")
         print(routeService.displayAllRoutesWithPoints())

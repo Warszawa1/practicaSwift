@@ -10,11 +10,20 @@ import Foundation
 typealias LoginResult = (User) -> Void
 typealias LoginError = (UserError) -> Void
 
+
+/// Service that handles all user-related operations and authentication
 class UserService {
     private let logger = Logger.shared
     static let shared = UserService()
     private var users: [User]
     
+    /// Attempts to authenticate a user with provided credentials
+        /// - Parameters:
+        ///   - email: User's email address
+        ///   - password: User's password
+        ///   - type: Type of user attempting to login (admin/regular)
+        ///   - onSuccess: Closure called when login is successful
+        ///   - onFailure: Closure called when login fails
     private init() {
         // Initialize with default users using try?
         self.users = [
